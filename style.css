@@ -277,3 +277,375 @@ a {
 	right: 0;
 	z-index: 10; /* make sure it's not hidden behind other elements */
 }
+
+/* Responsive Design */
+@media screen and (max-width: 1024px) {
+	.home_heading {
+		font-size: 60px;
+	}
+	
+	.home_text {
+		font-size: 24px;
+	}
+	
+	.education_heading,
+	.skills_heading,
+	.projects_heading,
+	.contacts_heading {
+		font-size: 50px;
+	}
+	
+	.about_heading {
+		font-size: 40px;
+		padding-right: 100px;
+	}
+	
+	#page2 {
+		margin-left: 15%;
+		width: 70%;
+	}
+	
+	.about {
+		width: 70%;
+		margin: 50px;
+		padding: 50px;
+	}
+	
+	.triangle {
+		width: 300px;
+		margin-left: 200px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	/* Navbar */
+	.navbar {
+		padding: 12px 20px;
+	}
+	
+	.navbar .logo {
+		font-size: 20px;
+	}
+	
+	.navbar ul {
+		gap: 20px;
+	}
+	
+	.navbar ul li a {
+		font-size: 14px;
+	}
+	
+	/* Home section */
+	.home_heading {
+		font-size: 40px;
+		margin-top: 20px;
+	}
+	
+	.home_text {
+		font-size: 18px;
+		margin-bottom: 30px;
+	}
+	
+	/* About section */
+	#page2 {
+		margin-left: 5%;
+		margin-top: 100px;
+		margin-bottom: 100px;
+		width: 90%;
+	}
+	
+	.about {
+		width: 90%;
+		margin: 30px;
+		padding: 30px;
+	}
+	
+	.about_heading {
+		font-size: 30px;
+		padding-right: 0;
+		text-align: center;
+	}
+	
+	.about_text {
+		font-size: 16px;
+		text-align: center;
+	}
+	
+	/* Education section */
+	.education_heading,
+	.skills_heading,
+	.projects_heading,
+	.contacts_heading {
+		font-size: 35px;
+		margin-top: 80px;
+	}
+	
+	#education {
+		flex-direction: column;
+		gap: 30px;
+		margin-top: 50px;
+	}
+	
+	.card {
+		width: 90% !important;
+		max-width: 350px;
+		margin-bottom: 30px;
+		padding: 20px;
+	}
+	
+	.card-title {
+		font-size: 28px;
+	}
+	
+	.card-text {
+		font-size: 15px;
+	}
+	
+	.footer-card {
+		font-size: 20px;
+	}
+	
+	/* Skills section */
+	.skills-container {
+		height: auto;
+		min-height: 60vh;
+		padding: 50px 0;
+	}
+	
+	.skills-item {
+		padding: 14px 28px;
+		font-size: 16px;
+		margin: 10px 0;
+	}
+	
+	/* Projects section */
+	.flexbox-container {
+		flex-direction: column;
+		height: auto;
+		min-height: 80vh;
+		gap: 30px;
+		padding: 50px 20px;
+	}
+	
+	/* Contact section */
+	.contact-container {
+		flex-direction: column;
+		height: auto;
+		min-height: 60vh;
+		padding: 50px 20px;
+	}
+	
+	.left-contact-div {
+		margin-top: 50px;
+		text-align: center;
+	}
+	
+	.triangle {
+		width: 200px;
+		height: 200px;
+		margin: 20px auto;
+		float: none;
+		clip-path: polygon(50% 0, 0 100%, 100% 100%);
+	}
+	
+	/* Finish line */
+	.finish-line {
+		width: 80%;
+		margin: 30px auto;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	/* Navbar */
+	.navbar {
+		padding: 10px 15px;
+	}
+	
+	.navbar .logo {
+		font-size: 18px;
+	}
+	
+	.navbar ul {
+		gap: 15px;
+	}
+	
+	.navbar ul li a {
+		font-size: 12px;
+	}
+	
+	/* Home section */
+	.home_heading {
+		font-size: 32px;
+		margin-top: 15px;
+	}
+	
+	.home_text {
+		font-size: 16px;
+		margin-bottom: 25px;
+	}
+	
+	/* About section */
+	#page2 {
+		margin-left: 2%;
+		margin-top: 80px;
+		margin-bottom: 80px;
+		width: 96%;
+	}
+	
+	.about {
+		width: 96%;
+		margin: 20px;
+		padding: 20px;
+	}
+	
+	.about_heading {
+		font-size: 24px;
+	}
+	
+	.about_text {
+		font-size: 14px;
+	}
+	
+	/* Section headings */
+	.education_heading,
+	.skills_heading,
+	.projects_heading,
+	.contacts_heading {
+		font-size: 28px;
+		margin-top: 60px;
+	}
+	
+	/* Cards */
+	.card {
+		width: 95% !important;
+		padding: 15px;
+		margin-bottom: 20px;
+	}
+	
+	.card-title {
+		font-size: 24px;
+	}
+	
+	.card-text {
+		font-size: 14px;
+	}
+	
+	.footer-card {
+		font-size: 18px;
+	}
+	
+	/* Skills */
+	.skills-item {
+		padding: 12px 24px;
+		font-size: 14px;
+	}
+	
+	/* Contact */
+	.left-contact-div {
+		margin-top: 30px;
+	}
+	
+	.left-contact-div h2 {
+		font-size: 24px;
+	}
+	
+	.left-contact-div p {
+		font-size: 14px;
+	}
+	
+	.triangle {
+		width: 150px;
+		height: 150px;
+	}
+	
+	/* Social icons */
+	.socials img {
+		width: 30px;
+		height: 30px;
+		margin-right: 8px;
+	}
+	
+	/* Profile image */
+	.container img {
+		height: 120px;
+		width: 120px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	/* Navbar */
+	.navbar ul {
+		gap: 10px;
+	}
+	
+	.navbar ul li a {
+		font-size: 11px;
+	}
+	
+	/* Home section */
+	.home_heading {
+		font-size: 28px;
+	}
+	
+	.home_text {
+		font-size: 14px;
+	}
+	
+	/* About section */
+	.about_heading {
+		font-size: 20px;
+	}
+	
+	.about_text {
+		font-size: 13px;
+	}
+	
+	/* Section headings */
+	.education_heading,
+	.skills_heading,
+	.projects_heading,
+	.contacts_heading {
+		font-size: 24px;
+	}
+	
+	/* Cards */
+	.card-title {
+		font-size: 20px;
+	}
+	
+	.card-text {
+		font-size: 13px;
+	}
+	
+	.footer-card {
+		font-size: 16px;
+	}
+	
+	/* Skills */
+	.skills-item {
+		padding: 10px 20px;
+		font-size: 13px;
+	}
+	
+	/* Contact */
+	.left-contact-div h2 {
+		font-size: 20px;
+	}
+	
+	.left-contact-div p {
+		font-size: 13px;
+	}
+	
+	/* Social icons */
+	.socials img {
+		width: 25px;
+		height: 25px;
+		margin-right: 6px;
+	}
+	
+	/* Profile image */
+	.container img {
+		height: 100px;
+		width: 100px;
+	}
+}
