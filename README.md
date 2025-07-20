@@ -21,4 +21,4 @@ This is a responsive and minimalist **Portfolio Website** built using only **HTM
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-portfolio.git
+   git clone https://github.com/affanali-781/Portfolio-Website-html-css-only-
