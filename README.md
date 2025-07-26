@@ -15,6 +15,7 @@ This is a responsive and minimalist **Portfolio Website** built using only **HTM
 
 - HTML5
 - CSS3
+- Bootstrap
 - Google Fonts (e.g., Playfair Display, Roboto)
 
 ## 🚀 How to Use
